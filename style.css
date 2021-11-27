@@ -7,6 +7,10 @@ main h1 {
     border-color: #ff0606;
 }
 
+header p {
+    color:white;
+}
+
 #sugashi {
     margin:5% 42%;
     border: 0;
