@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta charset="utf-8">
+<title>ワンクリック詐欺に気をつけよう！！</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+</header>
+
+<main>
+<h1>ワンクリック詐欺に気をつけよう！！</h1>
+<button id="sugashi" type="button" onclick="yoshikyo()">ワンクリック！！</button>
+</main>
+
+<header>
+    <p>本サイトはJavascriptを使用します。PopUpを許可してください</p>
+</header>
+<script type="text/javascript">
+    function yoshikyo() {
+        alert("押したね^^");
+        for (let okarimoto = 0; okarimoto < 10; okarimoto++) {
+            //alert(okarimoto);
+            window.open('https://www.soumu.go.jp/main_sosiki/joho_tsusin/security/enduser/security01/06.html');
+        }
+    }
+</script>
+
+</body>
+</html>
